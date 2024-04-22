@@ -116,3 +116,21 @@ async def test_delete_user_does_not_exist(async_client, token):
     delete_response = await async_client.delete(f"/users/{non_existent_user_id}", headers=headers)
     assert delete_response.status_code == 404
 
+# Test for deleting a user that is not authenticated 
+@pytest.mark.asyncio
+async def test_delete_unauthorized_user(async_client, user):
+    delete_response = await async_client.delete(f"/users/{user.id}")
+    assert delete_response.status_code == 401
+
+# Test for if user attempts to create an account with missing information 
+@pytest.mark.asyncio
+async def test_create_acount_missing_info(async_client):
+    missing_info = {"username": "testuser"}  # Missing the password and  email
+    response = await async_client.post("/register/", json=missing_info)
+    assert response.status_code == 422
+
+# Test for logging in with missing information
+@pytest.mark.asyncio
+async def test_missing_info_login(async_client):
+    response = await async_client.post("/login/", json={})
+    assert response.status_code == 422
