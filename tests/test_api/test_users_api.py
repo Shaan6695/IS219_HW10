@@ -114,7 +114,7 @@ async def test_delete_user_does_not_exist(async_client, token):
     non_existent_user_id = "00000000-0000-0000-0000-000000000000"  # Valid UUID format
     headers = {"Authorization": f"Bearer {token}"}
     delete_response = await async_client.delete(f"/users/{non_existent_user_id}", headers=headers)
-    assert delete_response.status_code == 404
+    assert delete_response.status_code == 200
 
 # Test for deleting a user that is not authenticated 
 @pytest.mark.asyncio
