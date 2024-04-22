@@ -4,7 +4,7 @@
 
 # Documentation
 
-# docker image 
+# Docker Hub image 
 ![alt text](<Screen Shot 2024-04-22 at 5.49.02 AM.png>)
 
 
