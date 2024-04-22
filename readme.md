@@ -7,7 +7,7 @@ This HW10 assignment has been very difficult for me and there were many things t
 
 # GitHub Actions
 Passing -
-![example workflow](https://github.com/Shaan6695/IS219_HW10/actions/workflows/main.yml/badge.svg) 
+![Github Actions](https://github.com/Shaan6695/IS219_HW10/actions/workflows/main.yml/production.svg) 
 
 
 # Docker Hub image 
