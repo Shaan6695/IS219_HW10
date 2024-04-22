@@ -3,7 +3,7 @@
 # IS 219 HW10
 
 # Documentation
-
+This HW10 assignment has been very difficult for me and there were many things to learn. It was overwhelming having to deal with the many new things that were added to this assignment and the large amount of code and files was something I have not worked with before. 
 # Docker Hub image 
 ![alt text](<Screen Shot 2024-04-22 at 5.49.02 AM.png>)
 
