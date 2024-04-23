@@ -9,6 +9,8 @@ This HW10 assignment has been very difficult for me and there were many things t
 Passing -
 ![example workflow](https://github.com/Shaan6695/IS219_HW10/actions/workflows/production.yml/badge.svg) 
 
+# Issues 
+https://github.com/Shaan6695/IS219_HW10/issues/2 
 
 # Docker Hub image 
 ![alt text](<Screen Shot 2024-04-22 at 11.06.58 AM.png>)
