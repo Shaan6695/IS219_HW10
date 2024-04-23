@@ -81,5 +81,5 @@ jobs:
           image-ref: 'shaan6695/is219_hw10-fastapi:${{ github.sha }}'
           format: 'table'
           exit-code: '1' # Fail the job if vulnerabilities are found
-          ignore-unfixed: true
+          ignore-unfixed: false
           severity: 'CRITICAL,HIGH'
