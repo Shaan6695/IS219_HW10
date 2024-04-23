@@ -10,9 +10,13 @@ Passing -
 ![example workflow](https://github.com/Shaan6695/IS219_HW10/actions/workflows/production.yml/badge.svg) 
 
 # Issues 
-* Fixing user information issue - https://github.com/Shaan6695/IS219_HW10/issues/2 
+- A link to all issues - https://github.com/Shaan6695/IS219_HW10/issues 
 
-* Fixing user biography issue - https://github.com/Shaan6695/IS219_HW10/issues/3 
+* 1. Fixing user information issue - https://github.com/Shaan6695/IS219_HW10/issues/2 
+
+* 2. Fixing user biography issue - https://github.com/Shaan6695/IS219_HW10/issues/3 
+
+* 3. Fixing production.yml issue - https://github.com/Shaan6695/IS219_HW10/issues/4 
 
 # Docker Hub image 
 ![alt text](<Screen Shot 2024-04-22 at 11.06.58 AM.png>)
